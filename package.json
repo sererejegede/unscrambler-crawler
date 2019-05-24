@@ -1,0 +1,29 @@
+{
+  "name": "unscrambler",
+  "version": "1.0.0",
+  "description": "Unscramble words by crawling the https://wordunscrambler.net",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sererejegede/unscrambler-crawler.git"
+  },
+  "author": "Serere Jegede",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sererejegede/unscrambler-crawler/issues"
+  },
+  "homepage": "https://github.com/sererejegede/unscrambler-crawler#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
