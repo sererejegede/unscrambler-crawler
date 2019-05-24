@@ -6,6 +6,10 @@ const request_promise = require('request-promise')
 const $ = require('cheerio')
 const url = 'https://www.wordunscrambler.net'
 
+app.get('/', (req, res) => {
+  res.send('<h1>Welcome to <b><i>unscramble crawler</i></b></h1>')
+})
+
 app.get('/wordget', async (req, res) => {
   console.log('QUERY PARAMS: ', req.query)
   unscramble(req.query.word).then(function(res_){
